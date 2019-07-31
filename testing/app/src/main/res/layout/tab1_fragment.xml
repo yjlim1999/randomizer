@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/btnTEST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="496dp"
+        android:text="TESTBTN 1"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/b_generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="183dp"
+        android:ems="25"
+        android:text="Generate" />
+
+    <EditText
+        android:id="@+id/et_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="47dp"
+        android:autofillHints=""
+        android:ems="25"
+        android:hint="min"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_min"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-9dp"
+        android:ems="25"
+        android:hint="max"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b_generate"
+        android:textSize="32sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/error_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_generate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text=""
+        android:textColor="#F00"
+        android:textSize="10sp" />
+
+
+
+</RelativeLayout>
